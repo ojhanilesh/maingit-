@@ -1,0 +1,9 @@
+Sudo su nojha
+gcloud auth login
+gcloud compute ssh --project cf-metrocf-fls-p9 fls-ssh-host --tunnel-through-iap --zone europe-west1-d
+ls
+cd metrocf-on-prem-connectivity
+ls
+cd envs/prod/spokes/configs/
+ls
+
